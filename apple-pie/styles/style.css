@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -17,7 +19,14 @@ h1 {
 	align-content: center;
     color: white;
     height: 600px;
-    background: url(./apple-pie/images/apple-pie.jpg) no-repeat center;
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+img{
+    width: 600px;
+    align-items: center;
 }
 
 ul {
@@ -28,12 +37,18 @@ h3 {
     font-size: 3em;
 }
 
-.main-area {
-    width: 100%;
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.recipe {
+    padding: 10%;
+    width: 80%;
     display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
+	align-items: left;
 	align-content: center;
 }
