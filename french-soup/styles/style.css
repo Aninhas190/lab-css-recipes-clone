@@ -26,7 +26,7 @@ hr {
   align-content: center;
   color: white;
   height: 600px;
-  background-image: url("/french-soup/images/soup.jpg");
+  background-image: url("../images/soup.jpg");
   background-size: cover;
   background-position: center;
 }
